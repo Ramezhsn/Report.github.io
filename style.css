@@ -1,9 +1,9 @@
 body {
-    background-color: #355c76;
+    background-color: #f2f2f2;
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    color: #ffffff; 
+    color: #1e3d58; /* Set text color to dark blue */
 }
 
 .container {
@@ -23,7 +23,7 @@ body {
 
 .header h1 {
     margin: 0;
-    color: #ffffff; /* Set header text color to white */
+    color: #e8564d; /* Set header text color to red */
     font-size: 2em;
 }
 
@@ -45,14 +45,14 @@ hr.page-separator {
 }
 
 .content-block h2 {
-    color: #ffffff; /* Set content block header text color to white */
+    color: #e8564d; /* Set content block header text color to red */
     margin-bottom: 10px;
     font-size: 1.25em;
     cursor: pointer;
 }
 
 .content-block p {
-    color: #ffffff; /* Set content block paragraph text color to white */
+    color: #1e3d58; /* Set content block paragraph text color to dark blue */
     line-height: 1.6;
     margin-bottom: 10px;
 }
@@ -65,7 +65,7 @@ hr.page-separator {
 .orientation-content h2 {
     font-size: 1.5em;
     margin-top: 20px;
-    color: #ffffff; /* Set orientation content header text color to white */
+    color: #e8564d; /* Set orientation content header text color to red */
 }
 
 .orientation-boxes {
@@ -87,12 +87,12 @@ hr.page-separator {
 .box h3 {
     margin-top: 10px;
     font-size: 1.25em;
-    color: #ffffff; /* Set box header text color to white */
+    color: #e8564d; /* Set box header text color to red */
 }
 
 .box p {
     font-size: 1em;
-    color: #ffffff; /* Set box paragraph text color to white */
+    color: #1e3d58; /* Set box paragraph text color to dark blue */
     margin-top: 10px;
 }
 
@@ -119,17 +119,15 @@ hr.page-separator {
 .intervention-text {
     position: absolute;
     width: 30%;
-    color: #000; /* Set text color to black for better readability */
+    color: #1e3d58; /* Set text color to dark blue */
 }
 
 .aim {
     top: 35%;
     left: 10%;
-    color: #ffffff;
 }
 
 .how {
     top: 35%;
     right: 10%;
-    color: #ffffff;
 }
