@@ -1,0 +1,135 @@
+body {
+    background-color: #355c76;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ffffff; 
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    color: #ffffff; /* Set header text color to white */
+    font-size: 2em;
+}
+
+section {
+    margin-top: 20px;
+}
+
+hr.page-separator {
+    border: 1px solid #ddd;
+    margin: 40px 0;
+}
+
+.page {
+    padding: 20px;
+}
+
+.content-block {
+    margin-bottom: 20px;
+}
+
+.content-block h2 {
+    color: #ffffff; /* Set content block header text color to white */
+    margin-bottom: 10px;
+    font-size: 1.25em;
+    cursor: pointer;
+}
+
+.content-block p {
+    color: #ffffff; /* Set content block paragraph text color to white */
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.orientation-content {
+    text-align: center;
+    position: relative;
+}
+
+.orientation-content h2 {
+    font-size: 1.5em;
+    margin-top: 20px;
+    color: #ffffff; /* Set orientation content header text color to white */
+}
+
+.orientation-boxes {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.box {
+    text-align: center;
+    max-width: 200px;
+}
+
+.box img {
+    width: 100%;
+    height: auto;
+}
+
+.box h3 {
+    margin-top: 10px;
+    font-size: 1.25em;
+    color: #ffffff; /* Set box header text color to white */
+}
+
+.box p {
+    font-size: 1em;
+    color: #ffffff; /* Set box paragraph text color to white */
+    margin-top: 10px;
+}
+
+.drr-logo {
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.drr-interventions {
+    text-align: center;
+    position: relative;
+}
+
+.intervention-container {
+    position: relative;
+    display: inline-block;
+}
+
+.intervention-image {
+    width: 100%;
+    height: auto;
+}
+
+.intervention-text {
+    position: absolute;
+    width: 30%;
+    color: #000; /* Set text color to black for better readability */
+}
+
+.aim {
+    top: 35%;
+    left: 10%;
+    color: #ffffff;
+}
+
+.how {
+    top: 35%;
+    right: 10%;
+    color: #ffffff;
+}
