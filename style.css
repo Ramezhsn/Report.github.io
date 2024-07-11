@@ -102,9 +102,10 @@ hr.page-separator {
 }
 
 .drr-interventions {
-    text-align: center;
+    text-align: left;
     position: relative;
 }
+
 
 .intervention-container {
     position: relative;
